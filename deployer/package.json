@@ -1,0 +1,19 @@
+{
+  "name": "deployer",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "deploy.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "dotenv": "^17.0.1",
+    "figures": "^6.1.0",
+    "firebase-tools": "^14.9.0",
+    "googleapis": "^150.0.1"
+  }
+}

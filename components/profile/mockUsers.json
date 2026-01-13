@@ -1,0 +1,17 @@
+[
+  { "nickname": "Alice", "profile_id": "@alice123", "points": 1850, "proficiency": 92, "avatarUrl": "/profilepicture.jpg" },
+  { "nickname": "Bob", "profile_id": "@bob456", "points": 1720, "proficiency": 88, "avatarUrl": "/profilepicture.jpg" },
+  { "nickname": "Charlie", "profile_id": "@charlie789", "points": 1600, "proficiency": 85, "avatarUrl": "/profilepicture.jpg" },
+  { "nickname": "Diana", "profile_id": "@diana101", "points": 1500, "proficiency": 82, "avatarUrl": "/profilepicture.jpg" },
+  { "nickname": "Ethan", "profile_id": "@ethan202", "points": 1450, "proficiency": 80, "avatarUrl": "/profilepicture.jpg" },
+  { "nickname": "Fiona", "profile_id": "@fiona303", "points": 1400, "proficiency": 78, "avatarUrl": "/profilepicture.jpg" },
+  { "nickname": "George", "profile_id": "@george404", "points": 1350, "proficiency": 75, "avatarUrl": "/profilepicture.jpg" },
+  { "nickname": "Hannah", "profile_id": "@hannah505", "points": 1300, "proficiency": 73, "avatarUrl": "/profilepicture.jpg" },
+  { "nickname": "Ian", "profile_id": "@ian606", "points": 1250, "proficiency": 70, "avatarUrl": "/profilepicture.jpg" },
+  { "nickname": "Julia", "profile_id": "@julia707", "points": 1200, "proficiency": 68, "avatarUrl": "/profilepicture.jpg" },
+  { "nickname": "Kevin", "profile_id": "@kevin808", "points": 1150, "proficiency": 65, "avatarUrl": "/profilepicture.jpg" },
+  { "nickname": "Lara", "profile_id": "@lara909", "points": 1100, "proficiency": 62, "avatarUrl": "/profilepicture.jpg" },
+  { "nickname": "Michael", "profile_id": "@michael010", "points": 1050, "proficiency": 60, "avatarUrl": "/profilepicture.jpg" },
+  { "nickname": "Nina", "profile_id": "@nina111", "points": 1000, "proficiency": 58, "avatarUrl": "/profilepicture.jpg" },
+  { "nickname": "Oscar", "profile_id": "@oscar212", "points": 950, "proficiency": 55, "avatarUrl": "/profilepicture.jpg" }
+]

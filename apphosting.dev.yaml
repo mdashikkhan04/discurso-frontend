@@ -1,0 +1,44 @@
+env:
+  - variable: MAILTRAP_API_KEY
+    secret: projects/352072819485/secrets/MAILTRAP_API_KEY
+  - variable: ACCESS_CRYPTO_KEY
+    secret: projects/352072819485/secrets/ACCESS_CRYPTO_KEY
+  - variable: ROLE_ADMIN_KEY
+    secret: projects/352072819485/secrets/ROLE_ADMIN_KEY
+  - variable: APP_DOMAIN
+    secret: projects/352072819485/secrets/APP_DOMAIN
+  - variable: MAILTRAP_SENDER_ADDRESS
+    secret: projects/352072819485/secrets/MAILTRAP_SENDER_ADDRESS
+  - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+    secret: projects/352072819485/secrets/NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+  - variable: NEXT_PUBLIC_FIREBASE_API_KEY
+    secret: projects/352072819485/secrets/NEXT_PUBLIC_FIREBASE_API_KEY
+  - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+    secret: projects/352072819485/secrets/NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+  - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+    secret: projects/352072819485/secrets/NEXT_PUBLIC_FIREBASE_PROJECT_ID
+  - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+    secret: projects/352072819485/secrets/NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+  - variable: NEXT_PUBLIC_FIREBASE_APP_ID
+    secret: projects/352072819485/secrets/NEXT_PUBLIC_FIREBASE_APP_ID
+  - variable: NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
+    secret: projects/352072819485/secrets/NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID
+  - variable: NEXT_PUBLIC_ENVIRON
+    secret: projects/352072819485/secrets/NEXT_PUBLIC_ENVIRON
+  - variable: NEXT_PUBLIC_RECAPTCHA_SITE_KEY
+    secret: projects/352072819485/secrets/NEXT_PUBLIC_RECAPTCHA_SITE_KEY
+  - variable: RECAPTCHA_SECRET_KEY
+    secret: projects/352072819485/secrets/RECAPTCHA_SECRET_KEY
+  - variable: DATA_COPY_KEY
+    secret: projects/352072819485/secrets/DATA_COPY_KEY
+  - variable: FUNCTIONS_API_KEY
+    secret: projects/352072819485/secrets/FUNCTIONS_API_KEY
+  - variable: HOURS_SLACK_TOKEN
+    secret: projects/352072819485/secrets/HOURS_SLACK_TOKEN
+  - variable: WELCOME_SECRET_KEY
+    secret: projects/352072819485/secrets/WELCOME_SECRET_KEY
+  - variable: DISCURSO_API_KEY
+    secret: projects/352072819485/secrets/DISCURSO_API_KEY
+  - variable: DISCURSO_API_BASE_URL
+    secret: projects/352072819485/secrets/DISCURSO_API_BASE_URL
+    

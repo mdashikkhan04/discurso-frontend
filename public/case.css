@@ -1,0 +1,123 @@
+/* Table-specific styling */
+table {
+  border-collapse: collapse;
+  margin: 0;
+  /* Enable horizontal scroll directly on table */
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap; /* Prevent wrapping for horizontal scroll */
+  table-layout: fixed;
+}
+
+td,
+th {
+  border: 1px solid #d1d5db; /* Light grey border */
+  box-sizing: border-box;
+  min-width: 1em;
+  padding: 8px 12px; /* Adjusted for a bit more space */
+  position: relative;
+  vertical-align: top;
+}
+
+/* Header styling */
+th {
+  background-color: #f3f4f6; /* Light grey background for headers */
+  font-weight: bold;
+  text-align: left;
+  color: #333; /* Slightly darker text for contrast */
+  position: sticky; /* Sticky headers */
+  top: 0;           /* Stick within table’s own scroll area */
+  z-index: 2;       /* Ensure headers stay above cells */
+}
+
+td {
+  background-color: #ffffff; /* White background for cells */
+}
+
+td,
+th > * {
+  margin-bottom: 0;
+}
+
+/* Highlight for custom-selected cells (your existing behavior) */
+.selectedCell:after {
+  background: #e0eaff !important;
+  /* content: ""; */
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  pointer-events: none;
+  position: absolute;
+  z-index: 2;
+}
+
+.selectedCell{
+  background: #e0eaff !important;  
+}
+
+/* Column resize handle (unchanged) */
+.column-resize-handle {
+  background-color: #33a3ff;
+  bottom: -2px;
+  pointer-events: none;
+  position: absolute;
+  right: -2px;
+  top: 0;
+  width: 4px;
+}
+
+/* Table wrapper (keep if used elsewhere — safe to leave as-is) */
+.tableWrapper {
+  margin: 1.5rem 0;
+  overflow-x: auto;
+}
+
+/* Resize cursor for column resizing */
+&.resize-cursor {
+  cursor: ew-resize;
+  cursor: col-resize;
+}
+
+/* Fix text selection inside table cells (override browser cell-block selection) */
+table, table * {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+table::selection,
+table *::selection {
+  background: #b3d4fc !important;
+  color: inherit;
+}
+
+table::-moz-selection,
+table *::-moz-selection {
+  background: #b3d4fc !important;
+  color: inherit;
+}
+
+
+/* List styles (unchanged) */
+ul,
+ol {
+  list-style-type: disc;
+  padding: 0 1rem;
+  margin: 1.25rem 1rem 1.25rem 0.4rem;
+
+  li p {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+  }
+}
+
+br {
+  display: block;
+  content: "";
+  margin-bottom: 1rem;
+}
+
+[dir="auto"] {
+  unicode-bidi: plaintext;
+}

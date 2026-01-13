@@ -1,0 +1,82 @@
+[
+  {
+    "profileImage": "/profilepicture.jpg",
+    "username": "John Doe",
+    "time": 1692529200,
+    "chunks": [
+      { "text": "has achieved " },
+      { "text": "level 7", "style": "emphasized", "link": "/profile/johndoe" },
+      { "text": " in negotiation! Don’t forget to celebrate it with him!" }
+    ]
+  },
+  {
+    "profileImage": "/profilepicture.jpg",
+    "username": "Alice Smith",
+    "time": 1692615600,
+    "chunks": [
+      { "text": "completed " },
+      { "text": "Module 3: Advanced Tactics", "style": "emphasized", "link": "/modules/3" },
+      { "text": " with an excellent score!" }
+    ]
+  },
+  {
+    "profileImage": "/profilepicture.jpg",
+    "username": "Michael Brown",
+    "time": 1692702000,
+    "chunks": [
+      { "text": "has maintained a " },
+      { "text": "7-day streak", "style": "emphasized" },
+      { "text": " of daily negotiations! 🔥" }
+    ]
+  },
+  {
+    "profileImage": "/profilepicture.jpg",
+    "username": "Sophia Lee",
+    "time": 1692788400,
+    "chunks": [
+      { "text": "just earned the " },
+      { "text": "Patience Mastery badge", "style": "emphasized", "link": "/badges/patience" },
+      { "text": " 🏅" }
+    ]
+  },
+  {
+    "profileImage": "/profilepicture.jpg",
+    "username": "Daniel Kim",
+    "time": 1692874800,
+    "chunks": [
+      { "text": "reached " },
+      { "text": "1200 negotiation points", "style": "emphasized" },
+      { "text": "! Keep it up 🚀" }
+    ]
+  },
+  {
+    "profileImage": "/profilepicture.jpg",
+    "username": "Emma Wilson",
+    "time": 1692961200,
+    "chunks": [
+      { "text": "surpassed her " },
+      { "text": "personal best score", "style": "emphasized" },
+      { "text": " in Module 5!" }
+    ]
+  },
+  {
+    "profileImage": "/profilepicture.jpg",
+    "username": "David Martinez",
+    "time": 1693047600,
+    "chunks": [
+      { "text": "climbed to " },
+      { "text": "Top 10 on the Global Leaderboard", "style": "emphasized", "link": "/leaderboard/global" },
+      { "text": " 🎉" }
+    ]
+  },
+  {
+    "profileImage": "/profilepicture.jpg",
+    "username": "Olivia Johnson",
+    "time": 1693134000,
+    "chunks": [
+      { "text": "finished " },
+      { "text": "all available modules", "style": "emphasized", "link": "/modules" },
+      { "text": "! An incredible milestone 👏" }
+    ]
+  }
+]
