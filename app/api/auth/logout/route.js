@@ -9,7 +9,8 @@ export async function POST(req) {
     const tokenCookie = serialize("session", "", {
       httpOnly: true,
       secure: process.env.NODE_ENV !== "development",
-      sameSite: "strict",
+      // sameSite: "strict",
+      sameSite: "lax",
       path: "/",
       maxAge: -1,
     });
@@ -17,7 +18,8 @@ export async function POST(req) {
     const accessCookie = serialize("access", "", {
       httpOnly: true,
       secure: process.env.NODE_ENV !== "development",
-      sameSite: "strict",
+      // sameSite: "strict",
+      sameSite: "lax",
       path: "/",
       maxAge: -1,
     });

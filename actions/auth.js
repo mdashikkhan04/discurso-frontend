@@ -47,7 +47,8 @@ export async function setSession(token, email) { //TODO replace in set-password 
     cookieStore.set("session", token, {
         httpOnly: true,
         secure: process.env.NODE_ENV !== "development",
-        sameSite: "strict",
+        // sameSite: "strict",
+        sameSite: "lax",
         path: "/",
         maxAge: 86400, // 24 hours
     });
@@ -55,7 +56,8 @@ export async function setSession(token, email) { //TODO replace in set-password 
     cookieStore.set("access", accessToken, {
         httpOnly: true,
         secure: process.env.NODE_ENV !== "development",
-        sameSite: "strict",
+        // sameSite: "strict",
+        sameSite: "lax",
         path: "/",
         maxAge: 86400, // 24 hours
     });
@@ -77,7 +79,8 @@ export async function updateSession(token) {
     cookieStore.set("session", token, {
         httpOnly: true,
         secure: process.env.NODE_ENV !== "development",
-        sameSite: "strict",
+        // sameSite: "strict",
+        sameSite: "lax",
         path: "/",
         maxAge: 86400, // 24 hours
     });
@@ -132,7 +135,8 @@ export async function setCookiesConsent(consentType) {
     cookieStore.set("cookies", consentType, {
         // httpOnly: false,
         secure: process.env.NODE_ENV !== "development",
-        sameSite: "strict",
+        // sameSite: "strict",
+        sameSite: "lax",
         path: "/",
         maxAge: 315360000
     });

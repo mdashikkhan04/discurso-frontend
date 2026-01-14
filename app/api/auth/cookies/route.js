@@ -21,7 +21,8 @@ export async function POST(req) {
             const cookiesCookie = serialize("cookies", agreed ? "agreed" : "rejected", {
                 // httpOnly: false,
                 secure: process.env.NODE_ENV !== "development",
-                sameSite: "strict",
+                // sameSite: "strict",
+                sameSite: "lax",
                 path: "/",
                 maxAge: 315360000,
             });
