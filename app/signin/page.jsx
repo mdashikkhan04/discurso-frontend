@@ -99,14 +99,14 @@ function SignPage() {
     if (!email || !password) return;
     showLoading();
     try {
-      const { cookiesAccepted, termsAccepted } = await getSignInPreflight(email);
-      if (!cookiesAccepted) {
-        await deleteCookieConsent();
-        setErrorMessage("We need to use cookies to manage your user session. Please accept cookies to continue.");
-        setShowCookieDialog(true);
-        hideLoading();
-        return;
-      }
+      // const { cookiesAccepted, termsAccepted } = await getSignInPreflight(email);
+      // if (!cookiesAccepted) {
+      //   await deleteCookieConsent();
+      //   setErrorMessage("We need to use cookies to manage your user session. Please accept cookies to continue.");
+      //   setShowCookieDialog(true);
+      //   hideLoading();
+      //   return;
+      // }
       await loginUser(email, password);
       let user, interval = 100;
       for (let ms = 0; ms < 60000; ms += interval) {
@@ -119,7 +119,8 @@ function SignPage() {
       if (!user) {
         throw new Error("Signin timed out");
       }
-      if (!skipTerms && !termsAccepted) {
+      // && !termsAccepted
+      if (!skipTerms ) {
         setErrorMessage("Please accept the Terms & Conditions and Privacy Policy");
         setShowTerms(true);
         hideLoading();
@@ -639,7 +640,7 @@ function SignPage() {
                       </div>
                     </div>
 
-                    <div className="flex justify-center">
+                    {/* <div className="flex justify-center">
                       <Button
                         onClick={handleCookieAcceptance}
                         className="w-full bg-orange-600 hover:bg-orange-700 text-white rounded-xl h-11 font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02]"
@@ -647,7 +648,7 @@ function SignPage() {
                         <Shield className="w-4 h-4 mr-2" />
                         Got it - I'll accept cookies below
                       </Button>
-                    </div>
+                    </div> */}
 
                     <p className="text-xs text-gray-600 text-center mt-4 leading-relaxed">
                       We only use essential cookies for authentication and session management. No tracking or advertising cookies are used.
